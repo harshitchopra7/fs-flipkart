@@ -1,0 +1,45 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 11%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    width: 140px;
+}
+
+.header-input-container {
+    display: flex;
+    margin-left: 25px;
+    align-items: center;
+}
+
+.header-input {
+    width: 400px;
+    background-color: transparent;
+    border: none;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.header-right{
+    display: flex;
+}
+
+.header-right-element {
+    display: flex;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.header-right-element > p {
+    margin-left: 5px;
+}
